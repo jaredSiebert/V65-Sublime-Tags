@@ -8,9 +8,7 @@ An example of navigating to this directory would be:
 Now simply do a Git pull and Vin65 custom tag support will start working in HTML files once you restart Sublime.
 
 ## Tag Hints
-If you want to add a pod you would type
-	<v65pod
-And Sublime will prompt you with tag options. Do not use the : in the tag name. This will be added automatically.
+If you want to add a pod you would type `<v65pod` and Sublime will prompt you with tag options. Do not use the : in the tag name. This will be added automatically.
 
 Once again using pods as an example, the default attributes of location and type will already be there for you.
 Some attributes have their values prefilled for you. Simply type `t` and title will be prefilled. If you don't want any extra attributes, hit tab and then delete the comma at the end. Hit tab again and you will be taken outside the tag.
