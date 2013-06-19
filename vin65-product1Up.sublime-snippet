@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[<div class="v65-product1Up v65-group">
+	<v65:product:photo showPhoto="1"></v65:product:photo>
+	<div class="v65-product-infoWrapper">
+		<v65:product:title></v65:product:title>
+		<v65:product:subtitle></v65:product:subtitle>
+		<v65:product:teaser></v65:product:teaser>
+		<v65:product:drilldownLink></v65:product:drilldownLink>
+		<v65:product:inventoryMessage></v65:product:inventoryMessage>
+		<v65:product:actionMessage></v65:product:actionMessage>
+		<v65:product:reviewStats></v65:product:reviewStats>
+		<v65:product:addToCart></v65:product:addToCart>
+		<v65:product:socialBar></v65:product:socialBar>
+	</div>
+</div>]]></content>
+	<tabTrigger>product1Up</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

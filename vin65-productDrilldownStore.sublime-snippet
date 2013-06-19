@@ -1,0 +1,109 @@
+<snippet>
+	<content><![CDATA[<v65:stateProfile:complianceAdvisory></v65:stateProfile:complianceAdvisory>
+
+<div class="v65-productStoreWrapper v65-group">
+
+	<div class="v65-productStoreWrapper-Top v65-group">
+
+		<div class="v65-product-leftCol">
+
+			<v65:product:photo showPhoto="1"></v65:product:photo>
+
+			<v65:product:photos></v65:product:photos>
+
+		</div>
+
+		<div class="v65-product-rightCol">
+
+			 <h1><v65:product:title></v65:product:title></h1>  
+ 
+			 <v65:product:subtitle></v65:product:subtitle>  
+ 
+			 <div class="v65-product-infoWrapper">
+
+				 <div class="v65-productCharacteristics">
+
+					 <v65:product:sku></v65:product:sku>
+
+					 <v65:product:brand></v65:product:brand>
+
+				 </div>
+
+				 <div class="v65-productCharacteristics">
+
+					 <v65:wine:region></v65:wine:region>
+
+					 <v65:wine:appellation></v65:wine:appellation>
+
+					 <br>
+
+					 <v65:wine:type></v65:wine:type>
+
+					 <v65:wine:varietal></v65:wine:varietal>
+
+					 <v65:spirit:type></v65:spirit:type>
+
+					 <v65:spirit:country></v65:spirit:country>
+
+					 <v65:spirit:region></v65:spirit:region>
+
+				</div>
+
+				<div class="v65-professionalReviews v65-group">
+
+					<v65:wine:professionalReviews></v65:wine:professionalReviews>
+
+				</div>
+
+			</div>
+
+			<div class="v65-product-commerceWrapper">
+
+				<v65:product:actionMessage></v65:product:actionMessage>
+
+				<v65:product:inCompliantStateMessage></v65:product:inCompliantStateMessage>
+
+				<v65:product:availability></v65:product:availability>
+
+				<v65:product:addToCart></v65:product:addToCart>
+
+				<v65:product:socialBar></v65:product:socialBar>
+
+				<v65:product:reviewStats></v65:product:reviewStats>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="v65-productTabsWrapper">
+
+		<v65:product:tabs>
+
+			<v65:product:tab title="Product Details">
+				<v65:product:description></v65:product:description>
+			</v65:product:tab>
+ 
+			<v65:product:tab title="Product Specs">
+				<v65:wine:specs></v65:wine:specs>
+				<v65:product:media></v65:product:media>
+				<v65:wine:profile></v65:wine:profile>
+			</v65:product:tab>
+
+			<v65:product:tab title="Reviews">
+				<v65:product:reviews></v65:product:reviews>
+			</v65:product:tab>
+
+			<v65:product:tab title="Related Products">
+				<v65:product:relatedProducts></v65:product:relatedProducts>
+			</v65:product:tab>
+
+		</v65:product:tabs>
+
+	</div>
+
+</div>]]></content>
+	<tabTrigger>productDrilldownStore</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

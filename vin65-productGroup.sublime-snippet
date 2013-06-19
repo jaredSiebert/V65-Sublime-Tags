@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<v65:product:photo></v65:product:photo>
+<v65:product:title></v65:product:title>
+<v65:product:subtitle></v65:product:subtitle>
+<v65:product:actionMessage></v65:product:actionMessage>
+<v65:product:reviewStats></v65:product:reviewStats>
+<v65:product:addToCart></v65:product:addToCart>]]></content>
+	<tabTrigger>productGroup</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

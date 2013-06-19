@@ -1,0 +1,56 @@
+<snippet>
+	<content><![CDATA[<div class="v65-product1UpStore v65-group">  
+
+	<v65:product:photo showPhoto="1"></v65:product:photo>
+
+	<div class="v65-product-infoWrapper">
+
+		<v65:product:title></v65:product:title>
+		<v65:product:subtitle></v65:product:subtitle>
+
+		<div class="v65-productCharacteristics">
+   
+			<v65:product:sku></v65:product:sku>
+			<v65:product:brand></v65:product:brand>
+
+		</div>
+  
+		<div class="v65-productCharacteristics">
+
+			<v65:wine:region></v65:wine:region>
+			<v65:wine:appellation></v65:wine:appellation>
+  
+			<br>
+
+			<v65:wine:type></v65:wine:type>
+			<v65:wine:varietal></v65:wine:varietal>
+			<v65:spirit:type></v65:spirit:type>
+			<v65:spirit:country></v65:spirit:country>
+			<v65:spirit:region></v65:spirit:region>
+
+		</div>
+
+		<v65:product:teaser></v65:product:teaser>
+
+	</div>
+
+	<div class="v65-product-commerceWrapper">
+
+		<v65:product:addToCart></v65:product:addToCart>
+
+		<v65:product:socialBar></v65:product:socialBar>
+
+		<v65:product:reviewStats></v65:product:reviewStats>
+
+		<div class="v65-professionalReviews v65-group">
+
+			<v65:wine:professionalReviews></v65:wine:professionalReviews>
+
+		</div>
+
+	</div>
+
+</div>]]></content>
+	<tabTrigger>product1UpStore</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
