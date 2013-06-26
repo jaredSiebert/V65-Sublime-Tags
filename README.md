@@ -5,7 +5,7 @@ To add this package, navigate to the Sublime Text 2 Package directory. You can f
 Once you know the directory, open up your Git terminal and navigate there.
 An example of navigating to this directory would be:
 	cd ~/AppData/Roaming/Sublime\ Text\ 2/Packages
-Now simply do a Git pull and Vin65 custom tag support will start working in HTML files once you restart Sublime.
+Now simply do a Git clone and Vin65 custom tag support will start working in HTML files once you restart Sublime.
 
 ## Tag Hints
 If you want to add a pod you would type `<v65pod` and Sublime will prompt you with tag options. Do not use the : in the tag name. This will be added automatically.
