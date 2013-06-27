@@ -85,6 +85,7 @@ class TagCompletions(sublime_plugin.EventListener):
             ("v65:contentSearch\tTag", "v65:contentSearch></v65:contentSearch>"),
             ("v65:copyright\tTag", "v65:copyright></v65:copyright>"),
             ("v65:css\tTag", "v65:css files=\"${1:/assets/css/screen.min.css}\"></v65:css>$0"),
+            ("v65:customFile\tTag", "v65:customFile file=\"$1\"></v65:customFile>$0"),
             ("v65:eventToday\tTag", "v65:eventToday></v65:eventToday>"),
             ("v65:eventUpcoming\tTag", "v65:eventUpcoming></v65:eventUpcoming>"),
             ("v65:js\tTag", "v65:js files=\"/assets/js/${1:scripts}.js$2\"></v65:js>$0"),

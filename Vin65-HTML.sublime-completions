@@ -16,6 +16,7 @@
 		{ "trigger": "v65:contentSearch", "contents": "<v65:contentSearch></v65:contentSearch>" },
 		{ "trigger": "v65:copyright", "contents": "<v65:copyright></v65:copyright>" },
 		{ "trigger": "v65:css", "contents": "<v65:css files=\"${1:/assets/css/2:screen.min.css}\"></v65:css>$0" },
+		{ "trigger": "v65:customFile", "contents": "<v65:customFile file=\"$1\"></v65:customFile>$0" },
 		{ "trigger": "v65:eventToday", "contents": "<v65:eventToday></v65:eventToday>" },
 		{ "trigger": "v65:eventUpcoming", "contents": "<v65:eventUpcoming></v65:eventUpcoming>" },
 		{ "trigger": "v65:js", "contents": "<v65:js files=\"/assets/js/${1:scripts}.js$2\"></v65:js>$0" },
