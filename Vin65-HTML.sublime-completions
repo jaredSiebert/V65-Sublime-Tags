@@ -22,7 +22,7 @@
 		{ "trigger": "v65:js", "contents": "<v65:js files=\"/assets/js/${1:scripts}.js$2\"></v65:js>$0" },
 		{ "trigger": "v65:layoutFooterNav", "contents": "<v65:layoutFooterNav></v65:layoutFooterNav>" },
 		{ "trigger": "v65:layoutHeaderNav", "contents": "<v65:layoutHeaderNav ${1: depth=\"${2:2}\"}></v65:layoutHeaderNav>$0" },
-		{ "trigger": "v65:layoutLeftNav", "contents": "<v65:layoutLeftNav ${1: startDepth=\"${2:2}\"></v65:layoutLeftNav>$0" },
+		{ "trigger": "v65:layoutLeftNav", "contents": "<v65:layoutLeftNav ${1: startDepth=\"${2:2}\"}></v65:layoutLeftNav>$0" },
 		{ "trigger": "v65:layoutSubMenu", "contents": "<v65:layoutSubMenu></v65:layoutSubMenu>" },
 		{ "trigger": "v65:leftNavSectionTitle", "contents": "<v65:leftNavSectionTitle></v65:leftNavSectionTitle>" },
 		{ "trigger": "v65:login", "contents": "<v65:login${1: delimiter=\"$2\"}></v65:login>$0" },

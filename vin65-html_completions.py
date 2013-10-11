@@ -91,7 +91,7 @@ class TagCompletions(sublime_plugin.EventListener):
             ("v65:js\tTag", "v65:js files=\"/assets/js/${1:scripts}.js$2\"></v65:js>$0"),
             ("v65:layoutFooterNav\tTag", "v65:layoutFooterNav></v65:layoutFooterNav>"),
             ("v65:layoutHeaderNav\tTag", "v65:layoutHeaderNav ${1: depth=\"${2:2}\"}></v65:layoutHeaderNav>"),
-            ("v65:layoutLeftNav\tTag", "v65:layoutLeftNav ${1: startDepth=\"${2:2}\"></v65:layoutLeftNav>$0"),
+            ("v65:layoutLeftNav\tTag", "v65:layoutLeftNav ${1: startDepth=\"${2:2}\"}></v65:layoutLeftNav>$0"),
             ("v65:layoutSubMenu\tTag", "v65:layoutSubMenu></v65:layoutSubMenu>"),
             ("v65:leftNavSectionTitle\tTag", "v65:leftNavSectionTitle></v65:leftNavSectionTitle>"),
             ("v65:login\tTag", "v65:login${1: delimiter=\"$2\"}></v65:login>$0"),
